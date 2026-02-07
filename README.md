@@ -1,87 +1,67 @@
-# Welcome to React Router!
+# 🎧 Spotify Web UI Clone
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+A pixel-accurate **Spotify Web UI clone** built using **React, Tailwind CSS, and React Router**.  
+This project focuses on recreating Spotify’s layout, interactions, and visual behavior — not backend or audio streaming.
 
 ---
 
-Built with ❤️ using React Router.
+## 🚀 Features
+
+- 🎵 Home page with hover-play cards
+- 📁 Library page with filters & grid/list toggle
+- 📀 Playlist detail page with track list
+- ▶️ Persistent player bar UI
+- 🌫️ Scroll-reactive top navigation bar
+- 🖼️ Real playlist/album cover images
+- 🎨 Smooth hover & transition effects
+- 📱 Fully responsive layout
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **Create React Router**
+- **Vite**
+- **Lucide Icons**
+
+---
+
+## 📸 Screenshots
+
+### Home
+![Home](./screenshots/home.png)
+
+### Playlist
+![Playlist](./screenshots/playlist.png)
+
+### Library
+![Library](./screenshots/library.png)
+
+---
+
+## 🧠 What I Focused On
+
+- UI accuracy & spacing
+- Component reusability
+- Smooth user interactions
+- Realistic app-like behavior
+- Clean folder structure
+
+This project was built as a **frontend UI showcase**, not a functional music player.
+
+---
+
+## 👤 Author
+
+**Akash Kumar Saw**
+
+- GitHub: https://github.com/aako-aakash  
+- LinkedIn: https://www.linkedin.com/in/akash-kumar-saw-bb1630258/
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes only.
