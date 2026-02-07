@@ -3,6 +3,9 @@
 A pixel-accurate **Spotify Web UI clone** built using **React, Tailwind CSS, and React Router**.  
 This project focuses on recreating Spotify’s layout, interactions, and visual behavior — not backend or audio streaming.
 
+## 🌐 Live Demo
+🔗 https://spotify-ui-clone-zeta.vercel.app/
+
 ---
 
 ## 🚀 Features
